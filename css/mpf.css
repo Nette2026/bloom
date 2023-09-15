@@ -4,8 +4,9 @@
     --pink: #e7718b;
     --white: #f4f4f6;
     --contentbg: #f4f4f6;
-    --border: #f9e2ea;
+    --border: #f9e2ea;  background-color: #ffffff;
     --producth2: #7a7a7a;
+    --productbg: #ffffff;
     --font-family: 'Open Sans', sans-serif;
     --font-family2: 'Zeyada', cursive;
 }
@@ -132,6 +133,7 @@ h2 {
 
 .product-section {
     height: 600px;
+    background-color: #ffffff;
     /* float: left; */
     border: 1px solid brown;
 }
@@ -154,9 +156,14 @@ h2 {
 .comment-box {
     width: 39%;
     float: right;
+    color:#dfdfdf
     border: 1px solid purple;
 }
 
+.comment-p {    
+    color:#dfdfdf
+ 
+}
 /* .products-box {
     border: 1px solid orange;
 }
